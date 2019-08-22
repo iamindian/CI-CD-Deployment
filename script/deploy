@@ -1,0 +1,8 @@
+#!/bin/sh
+ssh root@hk.linzhimin.net <<EOF
+ cd ~/CI-CD-Deployment
+ git pull
+ npm install - production
+ pm2 restart all
+ exit
+EOF
