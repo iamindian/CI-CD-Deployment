@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh root@hk.linzhimin.net <<EOF
+ssh -t -t root@hk.linzhimin.net <<EOF
  cd ~/CI-CD-Deployment
  git pull
  npm install - production
