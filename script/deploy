@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh -t -t -oStrictHostKeyChecking=no root@hk.linzhimin.net <<EOF
+ssh -t -t -i ~/.ssh/id_rsa root@hk.linzhimin.net <<EOF
  cd ~/CI-CD-Deployment
  git pull
  npm install -production
