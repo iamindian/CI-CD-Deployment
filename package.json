@@ -1,0 +1,30 @@
+{
+  "name": "ci-cd-deployment",
+  "version": "0.0.1",
+  "description": "Continue Integration and Continue Deployment Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamindian/CI-CD-Deployment.git"
+  },
+  "keywords": [
+    "CI",
+    "CD"
+  ],
+  "author": "Darren Z M LIN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamindian/CI-CD-Deployment/issues"
+  },
+  "homepage": "https://github.com/iamindian/CI-CD-Deployment#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "supertest": "^4.0.2"
+  }
+}
